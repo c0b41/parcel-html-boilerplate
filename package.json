@@ -1,0 +1,15 @@
+{
+  "name": "parcel-html-boilerplate",
+  "private": true,
+  "scripts": {
+    "dev": "parcel ./src/*.html",
+    "devw": "parcel watch ./src/*.html",
+    "build": "parcel build ./src/*.html --public-url ./"
+  },
+  "author": "c0b41",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1"
+  }
+}
